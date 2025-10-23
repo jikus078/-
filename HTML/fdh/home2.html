@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Bro sQuad - Fitness Apparel & Supplements</title>
+    <link rel="stylesheet" type ="text/css" href="css/CSS HOME2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo">
+                    <i class="fas fa-dumbbell"></i>
+                </div>
+                <span class="brand-name">BIG BRO SQUAD</span>
+            </div>
+            <div class="nav-links">
+                <a href="#"><i class="fas fa-home"></i> Home</a>
+                <a href="#"><i class="fas fa-user"></i> Account</a>
+                <div class="cart-btn" onclick="openCart()">
+                    <i class="fas fa-shopping-cart"></i> Cart
+                    <span class="cart-count" id="cartCount">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>🏋️ BUILD YOUR LEGACY 🏋️</h1>
+        <p>Premium Fitness Apparel & Supplements for Champions</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>Search</h3>
+            <input type="text" class="sidebar-search" id="searchInput" placeholder="Search products...">
+            
+            <h3>Categories</h3>
+            <div class="filter-group">
+                <button class="filter-btn active" onclick="filterProducts('all')">All Products</button>
+                <button class="filter-btn" onclick="filterProducts('shirt')">T-Shirts</button>
+                <button class="filter-btn" onclick="filterProducts('Hoodie')">Hoodies</button>
+                <button class="filter-btn" onclick="filterProducts('Sweatpants')">Sweatpants</button>
+                <button class="filter-btn" onclick="filterProducts('Whey Protein')">Supplements</button>
+            </div>
+        </aside>
+
+        <!-- Products Grid -->
+        <div id="productsContainer" class="products"></div>
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Product Details</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img id="modalImg" class="modal-img" src="" alt="">
+                <div class="modal-details">
+                    <h3 id="modalName"></h3>
+                    <p class="price"><span id="modalPrice"></span> THB</p>
+                    <p id="modalDescription"></p>
+                    <button class="btn btn-primary" onclick="addToCart()">
+                        <i class="fas fa-cart-plus"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
