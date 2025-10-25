@@ -1,0 +1,166 @@
+[2025-10-25 12:53:44] === NEW REQUEST ===
+[2025-10-25 12:53:44] Method: POST
+[2025-10-25 12:53:44] Session userid: 3
+[2025-10-25 12:53:44] PASS Step 1: Session OK
+[2025-10-25 12:53:44] PASS Step 2: POST method OK
+[2025-10-25 12:53:44] Raw JSON received: {"items":[{"id":4,"name":"BBQ Compression","price":450,"img":"img/cs.png","quantity":1},{"id":5,"name":"BBQ Whey","price":1200,"img":"img/whry.png","quantity":1}],"total":1650}
+[2025-10-25 12:53:44] Parsed data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [name] => BBQ Compression
+                    [price] => 450
+                    [img] => img/cs.png
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [name] => BBQ Whey
+                    [price] => 1200
+                    [img] => img/whry.png
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 1650
+)
+
+[2025-10-25 12:53:44] PASS Step 3: JSON parsed OK
+[2025-10-25 12:53:44] PASS Step 4: Data structure OK
+[2025-10-25 12:53:44] PASS Step 5: Data values OK (items: 2, total: 1650, user: 3)
+[2025-10-25 12:53:44] PASS Step 6: Database.php included
+[2025-10-25 12:53:44] PASS Step 7: Database connected
+[2025-10-25 12:53:44] FAIL Step 8: Order.php not found
+[2025-10-25 12:53:53] === NEW REQUEST ===
+[2025-10-25 12:53:53] Method: POST
+[2025-10-25 12:53:53] Session userid: 3
+[2025-10-25 12:53:53] PASS Step 1: Session OK
+[2025-10-25 12:53:53] PASS Step 2: POST method OK
+[2025-10-25 12:53:53] Raw JSON received: {"items":[{"id":4,"name":"BBQ Compression","price":450,"img":"img/cs.png","quantity":1},{"id":5,"name":"BBQ Whey","price":1200,"img":"img/whry.png","quantity":1}],"total":1650}
+[2025-10-25 12:53:53] Parsed data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [name] => BBQ Compression
+                    [price] => 450
+                    [img] => img/cs.png
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [name] => BBQ Whey
+                    [price] => 1200
+                    [img] => img/whry.png
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 1650
+)
+
+[2025-10-25 12:53:53] PASS Step 3: JSON parsed OK
+[2025-10-25 12:53:53] PASS Step 4: Data structure OK
+[2025-10-25 12:53:53] PASS Step 5: Data values OK (items: 2, total: 1650, user: 3)
+[2025-10-25 12:53:53] PASS Step 6: Database.php included
+[2025-10-25 12:53:53] PASS Step 7: Database connected
+[2025-10-25 12:53:53] FAIL Step 8: Order.php not found
+[2025-10-25 12:58:13] === NEW REQUEST ===
+[2025-10-25 12:58:13] Method: POST
+[2025-10-25 12:58:13] Session userid: 3
+[2025-10-25 12:58:13] PASS Step 1: Session OK
+[2025-10-25 12:58:13] PASS Step 2: POST method OK
+[2025-10-25 12:58:13] Raw JSON received: {"items":[{"id":4,"name":"BBQ Compression","price":450,"img":"img/cs.png","quantity":1},{"id":5,"name":"BBQ Whey","price":1200,"img":"img/whry.png","quantity":1}],"total":1650}
+[2025-10-25 12:58:13] Parsed data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [name] => BBQ Compression
+                    [price] => 450
+                    [img] => img/cs.png
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [name] => BBQ Whey
+                    [price] => 1200
+                    [img] => img/whry.png
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 1650
+)
+
+[2025-10-25 12:58:13] PASS Step 3: JSON parsed OK
+[2025-10-25 12:58:13] PASS Step 4: Data structure OK
+[2025-10-25 12:58:13] PASS Step 5: Data values OK (items: 2, total: 1650, user: 3)
+[2025-10-25 12:58:13] PASS Step 6: Database.php included
+[2025-10-25 12:58:13] PASS Step 7: Database connected
+[2025-10-25 12:58:13] PASS Step 8: Order.php included
+[2025-10-25 12:58:13] PASS Step 9: Order object created
+[2025-10-25 12:58:13] Attempting to create order...
+[2025-10-25 12:58:13] SUCCESS! Order ID: 1
+[2025-10-25 12:58:13] === END REQUEST ===
+
+[2025-10-25 13:26:45] === NEW REQUEST ===
+[2025-10-25 13:26:45] Method: POST
+[2025-10-25 13:26:45] Session userid: 3
+[2025-10-25 13:26:45] PASS Step 1: Session OK
+[2025-10-25 13:26:45] PASS Step 2: POST method OK
+[2025-10-25 13:26:45] Raw JSON received: {"items":[{"id":1,"name":"BBQ T-shirt","price":500,"img":"img/BTS.png","quantity":1},{"id":2,"name":"BBQ Hoodie","price":800,"img":"img/hoodie.png","quantity":1}],"total":1300}
+[2025-10-25 13:26:45] Parsed data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => BBQ T-shirt
+                    [price] => 500
+                    [img] => img/BTS.png
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => BBQ Hoodie
+                    [price] => 800
+                    [img] => img/hoodie.png
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 1300
+)
+
+[2025-10-25 13:26:45] PASS Step 3: JSON parsed OK
+[2025-10-25 13:26:45] PASS Step 4: Data structure OK
+[2025-10-25 13:26:45] PASS Step 5: Data values OK (items: 2, total: 1300, user: 3)
+[2025-10-25 13:26:45] PASS Step 6: Database.php included
+[2025-10-25 13:26:45] PASS Step 7: Database connected
+[2025-10-25 13:26:45] PASS Step 8: Order.php included
+[2025-10-25 13:26:45] PASS Step 9: Order object created
+[2025-10-25 13:26:45] Attempting to create order...
+[2025-10-25 13:26:45] SUCCESS! Order ID: 2
+[2025-10-25 13:26:45] === END REQUEST ===
+
