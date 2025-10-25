@@ -7,6 +7,7 @@
 body {
     font-family: 'Arial', sans-serif;
     overflow-x: hidden;
+    gap: 50px;
 }
 
 /* Hero Section */
@@ -32,7 +33,7 @@ body {
 
 .hero-buttons {
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .btn {
@@ -62,16 +63,6 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
 }
-
-/* Hero Images */
-.hero-images {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-}
-
 .hero-image {
     width: 1000px;
     height: 500px;
